@@ -1,0 +1,125 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{112, 65}, {802, 60}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6E318AF5-FDC0-4FFF-891E-BF02EFD14507",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "A person is on top of a cliff that is 100 m high and they drop a ball. Enter in the number of seconds and the program will calculate how high the object currently is above ground.",
+          "name" : "explanation_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{112, 157}, {209, 69}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "AE5C1CB1-CABB-4658-B65F-221121FB8E70",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "enter in the number of seconds since the ball has been dropped:",
+          "name" : "seconds_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{329, 194}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "0",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "B5BD7777-9EBB-4476-B81F-E6B9C7A3EEBE",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "seconds_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{112, 288}, {268, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E281D06E-6388-4A47-8B28-243A54C27DB1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Height above ground in meters:",
+          "name" : "height_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{397, 288}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4E3243EF-4655-4348-B912-397ED6F44A70",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{112, 234}, {80, 33}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "3FD49193-B3DC-40BA-8533-4CFB2B9B7DDD",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
