@@ -1,0 +1,16 @@
+
+//Created by: Matthew Lourenco
+//Created on: sept 26 2016
+//This is a program that finds the distance an object is above the ground after a given number of seconds if it is dropped from a 100m cliff.
+
+
+let GRAVITY: Float = 9.81
+
+//input
+var seconds: Float = 4.5
+
+//process
+var height: Float = 100 - (Float(GRAVITY) * (seconds * seconds))/2
+
+//output
+print(height)
